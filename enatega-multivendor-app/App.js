@@ -56,6 +56,7 @@ Notifications.setNotificationHandler({
 })
 
 export default function App() {
+  console.log('Testing  App')
   const reviewModalRef = useRef()
   const [appIsReady, setAppIsReady] = useState(false)
   const [location, setLocation] = useState(null)
